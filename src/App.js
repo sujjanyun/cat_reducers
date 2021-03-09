@@ -3,6 +3,8 @@ import { store } from './redux/store';
 import Activity from './components/Activity';
 import ActivityButton from './components/ActivityButton';
 import ChangeName from './components/ChangeName';
+import AddCat from './components/AddCat';
+
 
 function App() {
     return (
@@ -10,6 +12,7 @@ function App() {
             <div className='App'>
                 <h1>Cat Reducer</h1>
                 <ChangeName />
+                <AddCat/>
                 <hr />
                 <Activity />
                 <ActivityButton />
